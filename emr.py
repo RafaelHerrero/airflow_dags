@@ -19,7 +19,7 @@ S3_SCRIPT = "notebooks/read_csv.py"
 # Spark Configurations
 JOB_FLOW_OVERRIDES = {
     "Name": "Modeling profile user data",
-    "ReleaseLabel": "emr-5.29.0",
+    "ReleaseLabel": "emr-6.7.0",
     "Applications": [{"Name": "Hadoop"}, {"Name": "Spark"}],
     "Configurations": [
         {
